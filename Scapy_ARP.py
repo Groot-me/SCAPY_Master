@@ -5,7 +5,6 @@ class arp_spoofing:
 
     def __init__(self,Ip_Victim,Ip_Gateway):
 
-        print("TEST")
         self.Address_Victim = Ip_Victim
         self.Address_Gateway = Ip_Gateway
         # check argument regex ip
